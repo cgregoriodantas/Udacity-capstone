@@ -1,5 +1,5 @@
-import { JobsAccess } from './jobsAcess'
-import { AttachmentUtils } from './attachmentUtils';
+import { JobsAccess } from '../dataLayer/jobsAcess'
+import { AttachmentUtils } from '../fileStorage/attachmentUtils';
 import { JobItem, PageableJobItems } from '../models/JobItem'
 import { CreateJobRequest } from '../requests/CreateJobRequest'
 import { UpdateJobRequest } from '../requests/UpdateJobRequest'

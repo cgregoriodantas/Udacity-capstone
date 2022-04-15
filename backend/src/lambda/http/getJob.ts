@@ -5,7 +5,7 @@ import * as middy from 'middy'
 import { cors } from 'middy/middlewares'
 
 import { createLogger } from '../../utils/logger'
-import { getJobQuery } from '../../helpers/jobs'
+import { getJobQuery } from '../../businessLogic/jobs'
 import { getUserId } from '../utils';
 
 const logger = createLogger('getJob')
